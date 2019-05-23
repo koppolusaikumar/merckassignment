@@ -1,4 +1,4 @@
-export const addNewCard = name => ({
-    type: 'ADD_NEW_CARD',
-    name
-  })
+export const deleteCard = (id) => ({
+    type: 'DELETE_CARD',
+    id
+})
